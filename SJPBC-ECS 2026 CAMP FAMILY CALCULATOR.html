@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Downloading Excel Calculator...</title>
+  <script>
+    window.onload = function() {
+      var link = document.createElement('a');
+      link.href = "https://drive.google.com/uc?export=download&id=1AEgJn0kXY1J8KraVMNokF5Fg9LjbV30F";
+      link.download = "Calculator.xlsx";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    };
+  </script>
+</head>
+<body>
+  <p>If your download doesn't start automatically, <a href="https://drive.google.com/uc?export=download&id=1AEgJn0kXY1J8KraVMNokF5Fg9LjbV30F
